@@ -33,7 +33,7 @@ class Projects(BaseModel):
 
 graph_config = {
     "llm": {
-        "model": "ollama/llama3",
+        "model": "ollama/deepseek-r1:7b",
         "temperature": 0,
         "format": "json",
         "base_url": "http://localhost:11434",
